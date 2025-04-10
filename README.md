@@ -1,8 +1,12 @@
 # nippon-dark README
 
-Nippon Dark theme is a dark color theme using Japanese traditional colors.
+Nippon Dark theme is a dark color theme for vs code using Japanese traditional colors.
 
 Pcking colors from [和色大辞典](https://www.colordic.org/w).
+
+## Install
+
+Install `Nippon Dark` theme from vs code market place.
 
 ## Build & install 
 
