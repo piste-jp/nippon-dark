@@ -1,0 +1,457 @@
+{
+	// Referenced color code : https://www.colordic.org/w
+	"name": "Nippon-Light",
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#888084"  // 源氏鼠 げんじねず
+			}
+		},
+		{
+			"name": "Comments: Preprocessor",
+			"scope": "comment.block.preprocessor",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#c4a3bf"  // 浅紫 あさむらさき
+			}
+		},
+		{
+			"name": "Comments: Documentation",
+			"scope": [
+				"comment.documentation",
+				"comment.block.documentation"
+			],
+			"settings": {
+				"foreground": "#888084"  // 源氏鼠 げんじねず
+			}
+		},
+		{
+			"name": "Invalid - Illegal",
+			"scope": "invalid.illegal",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#e2041b"  // 猩々緋 しょうじょうひ
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"storage"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#f6bfbc"  // 虹色 にじいろ
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#f8f4e6",  // 象牙色 ぞうげいろ
+			}
+		},
+		{
+			"name": "Language Constants",
+			"scope": [
+				"constant.language",
+				"support.constant",
+				"variable.language"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#c1d8ac"  // 裏葉柳 うらはやなぎ
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"support.variable"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#f8f4e6",  // 象牙色 ぞうげいろ
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name",
+				"support.function"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#a2d7dd"  // 瓶覗 かめのぞき
+			}
+		},
+		{
+			"name": "Classes",
+			"scope": [
+				"entity.other.inherited-class",
+				"support.class"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#a2d7dd"  // 瓶覗 かめのぞき
+			}
+		},
+		{
+			"name": "Types",
+			"scope": [
+				"support.type", 
+				"storage.type",
+				"entity.name.type",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#bbc8e6"  // 淡藤色 あわふじいろ
+			}
+		},
+		{
+			"name": "Struct",
+			"scope": [
+				"storage.type.struct",
+				"storage.type.class",
+				"storage.type.modifier.access.control"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground":  "#f6bfbc"  // 虹色 にじいろ
+			}
+		},
+		{
+			"name": "Exceptions",
+			"scope": "entity.name.exception",
+			"settings": {
+				"foreground": "#bed3ca",  // 千草鼠 ちぐさねず
+
+			}
+		},
+		{
+			"name": "Sections",
+			"scope": "entity.name.section",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string",
+				"constant.character"
+			],
+			"settings": {
+				"fontStyle": "bold underline",
+				"foreground": "#c8c2be"  // 潤色 うるみいろ
+			}
+		},
+		{
+			"name": "Strings: Escape Sequences",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#ede4cd"  // 練色 ねりいろ
+			}
+		},
+		{
+			"name": "Strings: Regular Expressions",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#a0d8ef"  // 空色 そらいろ
+			}
+		},
+		{
+			"name": "Strings: Symbols",
+			"scope": "constant.other.symbol",
+			"settings": {
+				"foreground": "#f2c9ac"  // 洗柿 あらいがき
+			}
+		},
+		{
+			"name": "Markup: Changed",
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#f8f4e6",  // 象牙色 ぞうげいろ
+			}
+		},
+		{
+			"name": "Markup: Deletion",
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#f8f4e6",  // 象牙色 ぞうげいろ
+			}
+		},
+		{
+			"name": "Markup: Emphasis",
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup: Error",
+			"scope": "markup.error",
+			"settings": {
+				"foreground": "#e2041b"  // 猩々緋 しょうじょうひ
+			}
+		},
+		{
+			"name": "Markup: Insertion",
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#f8f4e6",  // 象牙色 ぞうげいろ
+			}
+		},
+		{
+			"name": "Markup: Link",
+			"scope": "meta.link",
+			"settings": {
+				"foreground": "#bbc8e6"  // 淡藤色 あわふじいろ
+			}
+		},
+		{
+			"name": "Markup: Output",
+			"scope": [
+				"markup.output",
+				"markup.raw"
+			],
+			"settings": {
+				"foreground": "#eae5e3"  // 素色 そしょく
+			}
+		},
+		{
+			"name": "Markup: Prompt",
+			"scope": "markup.prompt",
+			"settings": {
+				"foreground": "#eae5e3"  // 素色 そしょく
+			}
+		},
+		{
+			"name": "Markup: Heading",
+			"scope": "markup.heading",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#d6e9ca"  // 白緑 びゃくろく
+			}
+		},
+		{
+			"name": "Markup: Strong",
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup: Traceback",
+			"scope": "markup.traceback",
+			"settings": {
+				"foreground": "#e8d3d1"  // 灰桜 はいざくら
+			}
+		},
+		{
+			"name": "Markup: Underline",
+			"scope": "markup.underline",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Markup Quote",
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "#eebbcb"  // 撫子色 なでしこいろ
+			}
+		},
+		{
+			"name": "Markup Lists",
+			"scope": "markup.list",
+			"settings": {
+				"foreground": "#e0ebaf"  // 若芽色 わかめいろ
+			}
+		},
+		{
+			"name": "Markup Styling",
+			"scope": [
+				"markup.bold",
+				"markup.italic"
+			],
+			"settings": {
+				"foreground": "#c1e4e9"  // 白藍 しらあい
+			}
+		},
+		{
+			"name": "Markup Inline",
+			"scope": "markup.inline.raw",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#dcd3b2"  // 砂色 すないろ
+			}
+		},
+		{
+			"name": "Extra: Diff Range",
+			"scope": [
+				"meta.diff.range",
+				"meta.diff.index",
+				"meta.separator"
+			],
+			"settings": {
+				"foreground": "#e4d2d8"  // 鴇鼠 ときねず
+			}
+		},
+		{
+			"name": "Extra: Diff From",
+			"scope": "meta.diff.header.from-file",
+			"settings": {
+				"foreground": "#a6a5c4"  // 藤鼠 ふじねず
+			}
+		},
+		{
+			"name": "Extra: Diff To",
+			"scope": "meta.diff.header.to-file",
+			"settings": {
+				"foreground": "#c7dc68"  // 若苗色 わかなえいろ
+			}
+		}
+	],
+	"colors": {
+		// General 
+		"titleBar.activeBackground": "#383c3c",    // 羊羹色 ようかんいろ
+		"titleBar.inactiveBackground": "#727171",  // 鈍色 にびいろ
+		"selection.background": "#dddcd680",       // 絹鼠 きぬねず
+		"focusBorder": "#bed3ca",                  // 千草鼠 ちぐさねず
+
+		// Input box
+		"input.background": "#2a4073",               // 深縹 こきはなだ
+		"input.foreground": "#e9e4d4",               // 灰白色 かいはくしょく
+		"input.placeholderForeground": "#888084AA",  // 源氏鼠 げんじねず
+		"inputOption.activeBorder": "#bed3ca",       // 千草鼠 ちぐさねず
+
+		// Badge
+		"badge.background": "#fdeff2",  // 薄桜 うすざくら
+		"badge.foreground": "#a22041",  // 濃紅 こいくれない
+
+		// Progress bar
+		"progressBar.background":  "#727171",  // 鈍色 にびいろ
+
+		// Dropdown
+		"dropdown.background": "#727171",  // 鈍色 にびいろ
+		"dropdown.border": "#bed3ca",      // 千草鼠 ちぐさねず
+
+		// Button 
+		"button.background": "#db8449",  // 赤朽葉色 あかくちばいろ
+
+		// Side bar
+		"sideBar.background": "#554738",       // 涅色 くりいろ
+		"sideBarTitle.foreground": "#f8fbf8",  // 白磁 はくじ
+
+		// List
+		"list.activeSelectionBackground": "#0f2350",    // 濃藍 こいあい
+		"list.activeSelectionForeground": "#f7fcfe",    // 卯の花色 うのはないろ
+		"list.hoverBackground": "#1c305c",              // 留紺 とめこん
+		"list.inactiveSelectionBackground": "#274a78",  // 青藍 せいらん
+		"list.highlightForeground": "#dbd0e6",          // 白藤色 しらふじいろ
+		"quickInputList.focusBackground": "#192f60",    // 紺青 こんじょう
+
+		// Editor
+		"editor.background": "#433d3c",                  // 檳榔子染 びんろうじぞめ
+		"editor.foreground": "#f8f4e6",                  // 象牙色 ぞうげいろ
+		"editorCursor.foreground": "#f8f4e6",            // 象牙色 ぞうげいろ
+		"editorWidget.background": "#192f60",            // 紺青 こんじょう
+		"editor.lineHighlightBackground": "#1f3134",     // 百入茶 ももしおちゃ
+		"editor.selectionBackground": "#6f514c",         // 煤竹色 すすたけいろ
+		"editorWhitespace.foreground": "#634950",        // 濃色 こきいろ
+		"editorIndentGuide.background1":  "#634950",     // 濃色 こきいろ
+		"editorIndentGuide.activeBackground1":  "#634950",  // 濃色 こきいろ
+		"editorHoverWidget.background": "#1c305c",       // 留紺 とめこん
+		"editorLineNumber.foreground": "#95483f",        // 鳶色 とびいろ
+		"editorLineNumber.activeForeground": "#ab6953",  // 赭 そほ
+		"editorGroup.border": "#bed3ca",                 // 千草鼠 ちぐさねず
+		"editorGroup.dropBackground": "#e4dc8a50",       // 枯草色 かれくさいろ (50)
+		"editorGroupHeader.tabsBackground":  "#383c3c",  // 羊羹色 ようかんいろ
+
+		// Tab
+		"tab.border": "#bed3ca",               // 千草鼠 ちぐさねず 
+		"tab.activeBackground": "#433d3c",     // 檳榔子染 びんろうじぞめ
+		"tab.inactiveForeground": "#9ea1a3",   // 錫色 すずいろ
+		"tab.inactiveBackground": "#524e4d",   // 消炭色 けしずみいろ
+		"tab.activeModifiedBorder": "#bed3ca", // 千草鼠 ちぐさねず
+		"tab.lastPinnedBorder": "#bed3ca",     // 千草鼠 ちぐさねず
+
+		// Status bar
+		"statusBar.foreground": "#2a4073",            // 深縹 こきはなだ
+		"statusBar.background": "#d8e698",            // 若菜色 わかないろ
+		"statusBar.debuggingBackground": "#c3d825",   // 若草色 わかくさいろ
+		"statusBar.noFolderBackground": "#eae5e3",    // 素色 そしょく
+		"statusBarItem.remoteForeground": "#2a4073",  // 深縹 こきはなだ
+		"statusBarItem.remoteBackground": "#c7dc68",  // 若苗色 わかなえいろ
+		"statusBarItem.prominentBackground": "#a8bf93",  // 山葵色 わさびいろ
+		"statusBarItem.prominentHoverBackground": "#1c305c",  // 留紺 とめこん
+
+		// Activity bar
+		"activityBar.background": "#595857",       // 墨 すみ
+		"activityBar.foreground": "#c0c6c9",       // 灰青 はいあお
+		"activityBarBadge.background": "#fdeff2",  // 薄桜 うすざくら
+		"activityBarBadge.foreground": "#a22041",  // 濃紅 こいくれない
+
+		// Minimap
+		"minimap.background": "#595857",            // 墨 すみ
+		"minimap.selectionHighlight": "#fdeff240",  // 薄桜 うすざくら (40)
+
+		// Peek view
+		"peekViewResult.background": "#595857",                // 墨 すみ
+		"peekViewEditor.background":  "#433d3c",               // 檳榔子染 びんろうじぞめ
+		"peekViewTitle.background": "#383c3c",                 // 羊羹色 ようかんいろ
+		"peekView.border": "#bed3ca",                          // 千草鼠 ちぐさねず
+		"peekViewEditor.matchHighlightBackground": "#192f60",  // 紺青 こんじょう
+
+		// Panel
+		"panel.border": "#bed3ca",  // 千草鼠 ちぐさねず
+
+		// Ports
+		"ports.iconRunningProcessForeground": "#a22041",  // 真紅 しんく
+
+		// Debug window
+		"debugToolBar.background": "#595857",          // 墨 すみ
+		"debugExceptionWidget.background": "#3f312b",  // 赤墨 あかすみ
+		"debugExceptionWidget.border": "#bed3ca",      // 千草鼠 ちぐさねず
+
+		// Picker
+		"pickerGroup.border": "#bed3ca",      // 千草鼠 ちぐさねず
+		"pickerGroup.foreground": "#f8f4e6",  // 象牙色 ぞうげいろ
+
+		// Extention 
+		"extensionButton.prominentBackground": "#db8449",       // 赤朽葉色 あかくちばいろ 
+		"extensionButton.prominentHoverBackground": "#1c305c",  // 留紺 とめこん
+
+		// ANSI terminal colors
+		"terminal.ansiBlack": "#fbfaf5",    // 生成り色 きなりいろ
+		"terminal.ansiRed": "#c53d43",      // 赤紅 あかべに		
+		"terminal.ansiGreen": "#007b43",    // 常磐色 ときわいろ
+		"terminal.ansiYellow": "#e6b422",   // 金色 こんじき
+		"terminal.ansiBlue": "#007bbb",     // 紺碧 こんぺき
+		"terminal.ansiMagenta": "#aa4c8f",  // 梅紫 うめむらさき
+		"terminal.ansiCyan": "#7058a3",     // 菫色 すみれいろ
+		"terminal.ansiWhite": "#9fa0a0",    // 素鼠 すねずみ
+
+		// ANSI terminal colors (Bright)
+		"terminal.ansiBrightBlack": "#eae5e3",    // 素色 そしょく
+		"terminal.ansiBrightRed": "#e2041b",      // 猩々緋 しょうじょうひ
+		"terminal.ansiBrightGreen": "#028760",    // 常磐緑 ときわみどり
+		"terminal.ansiBrightYellow": "#ebd842",   // 金糸雀色 かなりあいろ
+		"terminal.ansiBrightBlue": "#2ca9e1",     // 天色 あまいろ
+		"terminal.ansiBrightMagenta": "#cc7eb1",  // 菖蒲色 あやめいろ
+		"terminal.ansiBrightCyan": "#a59aca",     // 藤紫 ふじむらさき
+		"terminal.ansiBrightWhite": "#c0c6c9",    // 灰青 はいあお
+		"terminal.background": "#595857",         // 墨 すみ 
+
+		"walkThrough.embeddedEditorBackground": "#d4dcd6",  // 
+	},
+	"semanticHighlighting": true
+}
